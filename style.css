@@ -772,7 +772,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #EA7248;
+    background-color: #4E342E;
 }
 
 .tc-white {
@@ -839,7 +839,7 @@ figcaption {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1042,6 +1042,14 @@ figcaption {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .social {
+        display: flex;
+        justify-content: space-between;
+    }
+    .img-responsive {
+        margin: auto;
+        max-width: 100%;
     }
 }
 
