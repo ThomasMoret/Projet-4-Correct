@@ -788,8 +788,12 @@ h4 {
     background-color: #4E342E;
 }
 
-.tc-white {
+.tc-orange {
     color: #EA7248!important;
+}
+
+.tc-white {
+    color: #FFFFFF !important;
 }
 
 .tc-grey {
