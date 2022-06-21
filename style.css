@@ -82,7 +82,7 @@ a:hover {
 
 .bloc-bg-texture::before {
     content: "";
-    background-size: 2px 2px;
+    background-size: 2px 2px !important;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -309,6 +309,10 @@ a:hover {
 
 .navbar-brand img[src$=svg] {
     min-width: 100px;
+    transition: 0.3s ease-in-out;
+}
+.navbar-brand img:hover {
+    opacity: 0.6;
 }
 
 .nav-center .navbar-brand img {
@@ -326,6 +330,15 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+}
+
+.nav > li a {
+    font-size: 2rem;
+    transition: 0.3s ease-in-out;
+}
+
+.nav > li a:hover {
+    opacity: 0.6;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -650,7 +663,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
+    font-weight: 600;
     color: #575757!important;
 }
 
