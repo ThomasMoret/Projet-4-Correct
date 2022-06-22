@@ -859,6 +859,16 @@ figcaption {
     background-image: url("img/image-de-presentation.webp");
 }
 
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5vh;
+}
+
+.contact-info > a:hover {
+    opacity: 0.6;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1076,4 +1086,11 @@ figcaption {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+    .contact-info > a {
+        padding-left: 10px !important;
+    }
+    
+
 }
+
